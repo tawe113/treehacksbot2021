@@ -108,8 +108,8 @@ async def on_message(message):
 
 
 
-
-TOKEN = "ODEwMDEyMTg1NDU1NjI0MTky.YCdcog.OH6jJSc6x4BC2N34HVcUdhZMjVs"
+# Token of our test server hidden
+TOKEN = "insert your token here"
 client.loop.create_task(background_guide())
 client.run(TOKEN)
 
